@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pop-up Section Example</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <div id="minimizePopup" , class="hidden">table</div>
+
+    <button id="popup-button">Open Popup</button>
+    <div class="container">
+
+        <div id="popup-section" class="hidden max-icon1">
+            <div id="popup-navs">
+                <button id="close-button"><box-icon name='window-close'></box-icon></button>
+                <button id="minimize-button"><box-icon name='minus'></box-icon></button>
+                <button id="maximize-button"><box-icon name='window'></box-icon></button>
+            </div>
+            <div class="table-wrapper">
+                <table id="my_table" class="tab-size1">
+                    <thead>
+                        <tr class="column_name" id="columnName">
+                            <th id="status">status <span class="sortIcon " id="sortIcon0"></span></th>
+                            <th id="address">address <span class="sortIcon " id="sortIcon1"></span></th>
+                            <th id="phone">phone no. <span class="sortIcon " id="sortIcon2"></span></th>
+                            <th id="name">Name <span class="sortIcon " id="sortIcon3"></span></th>
+                            <th id="srno">sr no. <span class="sortIcon " id="sortIcon4"></span></th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody">
+
+                    </tbody>
+                </table>
+            </div>
+            <section class="popUp-footer">
+                <div class="left">
+                    <div class="table-row-num">
+                        <!-- change the select element into input -->
+                        <input type="number" class="table-cap" id="tableSize" value="10" min="5" max="20">
+
+                    </div>
+                    <div class="row-page-counter">
+                        <span id="contentCounter">43295 ردیف در 855555 صفحه.</span>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="page-num-container">
+                        <div class="input-page-number">
+                            <input type="number" class="input-search" id="inpSelectPageNumber">
+                            <div class="search-button" id="searchButton">search</div>
+                        </div>
+
+                        <div class="links" id="tablePages">
+                            <span class="link">1</span>
+                            <span class="link">2</span>
+                            <span class="link">3</span>
+                            <span class="link">. . .</span>
+                            <span class="link">آخرین</span>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </div>
+
+    <script src="popup.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+</body>
+
+</html>
