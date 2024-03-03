@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Responsive api</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- My Fonts Link -->
+
+  <!-- Google Fonts Link For Icons -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+</head>
+
+<body>
+  <!-- Sidebar -->
+  <div id="mySidebar" class="sidebar">
+    <!-- logo of the company -->
+    <div class="logo">
+      <img src="images/logo.jpg" alt="logo">
+    </div>
+    <div class="menu">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+      <a href="#">درباره</a>
+      <a href="#">خدمات</a>
+      <a href="#">مشتری ها</a>
+      <a href="#">تماس با ما</a>
+    </div>
+  </div>
+
+  <!-- Chats container -->
+  <div class="chatbox">
+    <div class="chat-container" id="main">
+      <button class="openbtn" onclick="openNav()">☰</button>
+
+      <!-- <button class="btn-nav">
+      <div class="bar arrow-top-r"></div>
+      <div class="bar arrow-middle-r"></div>
+      <div class="bar arrow-bottom-r"></div>
+    </button> -->
+
+
+    </div>
+  </div>
+
+  <!-- Typing container -->
+  <div class="typing-container">
+    <div class="typing-content">
+      <div class="typing-textarea">
+        <div class="typing-controls">
+          <span id="mic-btn" class="material-symbols-outlined">
+            mic
+          </span>
+        </div>
+        <textarea id="chat-input" spellcheck="false" placeholder="اینجا تایپ کنید ..." required></textarea>
+        <span id="send-btn" class="material-symbols-rounded">send</span>
+
+      </div>
+      <div class="typing-controls">
+        <span id="theme-btn" class="material-symbols-rounded">light_mode</span>
+        <span id="delete-btn" class="material-symbols-rounded">delete</span>
+      </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
+    <script src="persian-date/dist/persian-date.js" type="text/javascript"></script>
+</body>
+
+</html>
