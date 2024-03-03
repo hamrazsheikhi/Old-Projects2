@@ -1,19 +1,17 @@
-# 🧮 Simple Calculator
+# Projects Folder 📁
 
-This is a simple calculator built with HTML, CSS, and JavaScript. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
+Welcome to the Projects folder! This directory contains various projects created by Hamraz Sheikhi.
 
-## Features ✨
+## Description ℹ️
 
-- Responsive design with a sleek user interface.
-- Supports addition, subtraction, multiplication, and division operations.
-- Dynamic calculation display for both current input and result.
-- Clear button to reset the calculation.
+This folder serves as a repository for different projects developed by Hamraz Sheikhi. Each project focuses on different aspects of software development, including frontend, backend, and full-stack development.
 
-## How to Contribute 🤝
+## How to Use 🚀
 
-Contributions to this project are welcome! If you'd like to contribute, please follow these steps:
+1. Clone or download this repository to your local machine.
+2. Navigate to the project folder you're interested in.
+3. Follow the instructions provided in the project's README.md file to set up and run the project.
 
-1. Fork the repository and create a new branch for your feature or bug fix.
-2. Make your changes and ensure they adhere to the project's coding style and guidelines.
-3. Test your changes thoroughly.
-4. Submit a pull request detailing your changes and the problem they solve.
+## Contribution Guidelines 🤝
+
+Contributions to the projects in this folder are welcome! If you'd like to contribute, please follow the guidelines outlined in each project's README.md file.
